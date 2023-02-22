@@ -45,7 +45,8 @@
     background: white;
     padding: 10px 45px;
     border-radius: 40px;
-    border-color: #F13C6E;
+    /*border-color: #F13C6E;*/
+    border: #F13C6E solid 1px;
 
 }
 
@@ -128,7 +129,7 @@
     border-radius: 35px;
     padding: 10px 45px;
     margin-left: 2%;
-    border-width: thin;
+    border:  1px solid;
 }
 
 .special-offers-section {
@@ -187,6 +188,7 @@
     border-radius: 35px;
     padding: 10px 45px;
     margin: 5%;
+    border:  1px solid;
 }
 
 .pink-rectangles-section {
@@ -234,13 +236,13 @@
 .rectangle-button {
     background: #F13C6E;
     color: #FFFFFF;
-    border-color: #FFFFFF;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
     border-radius: 35px;
     padding: 10px 45px;
+    border:  1px solid;
 }
 
 .rectangle-input {
@@ -250,5 +252,26 @@
     font-weight: 400;
     color: #E5E5E5;
     padding: 7px;
+}
 
+.impulse {
+    background: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 984px;
+    justify-content: center;
+
+}
+
+.impulse_section {
+    display: flex;
+    justify-content: center;
+    background: #E5E5E5;
+    padding: 7%;
+}
+
+.impulse > li {
+    background: #FFFFFF;
+    padding: 25px;
+    border: #E5E5E5 1px solid;
 }
