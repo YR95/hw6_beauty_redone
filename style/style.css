@@ -147,8 +147,9 @@
 
 .chair {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 5%;
 }
 
 .chair-items {
@@ -267,11 +268,34 @@
     display: flex;
     justify-content: center;
     background: #E5E5E5;
-    padding: 7%;
+    padding: 4%;
 }
 
 .impulse > li {
     background: #FFFFFF;
     padding: 25px;
     border: #E5E5E5 1px solid;
+}
+.popular-category-section-header{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+}
+.popular-category-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.pop-item>li{
+    text-align: left;
+    padding: 15px 0 15px 0;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
 }
