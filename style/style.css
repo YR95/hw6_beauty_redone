@@ -21,7 +21,7 @@
 
 .logo-icon {
     min-width: 80px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .beauty-logo-icon {
@@ -70,7 +70,7 @@
 
 .navigation-line {
     border-top: 1px #E5E5E5;
-    margin: 1%;
+    margin: 10px;
 }
 
 .medium-navigation {
@@ -85,4 +85,48 @@
     font-size: 16px;
     font-family: "Roboto";
     font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.image_background {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../icon/pink_background.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 525px;
+}
+
+.image-background-header {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.image-background-text {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.image-background-button {
+    border-color: white;
+    background: #F13C6E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 35px;
+    padding: 10px 45px;
+    margin-left: 2%;
+    border-width: thin;
+
 }
