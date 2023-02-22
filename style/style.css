@@ -89,6 +89,7 @@
 }
 
 .image_background {
+    background: #E5E5E5;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../icon/pink_background.png");
@@ -128,5 +129,60 @@
     padding: 10px 45px;
     margin-left: 2%;
     border-width: thin;
+}
 
+.special-offers-section {
+    display: flex;
+    background: #E5E5E5;
+    flex-direction: column;
+}
+
+.special-offers-header {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2%;
+}
+
+.chair {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.chair-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.chair-items-img {
+    max-height: 166px;
+}
+
+.chair-items-text{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    padding:5%;
+}
+.chair_price {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+}
+.chair-items-button{
+    background: #F13C6E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-color: #F13C6E;
+    border-radius: 35px;
+    padding: 10px 45px;
+    margin: 5%;
 }
