@@ -203,8 +203,6 @@
     justify-content: center;
     align-items: center;
     background: #F13C6E;
-    margin-top: 3%;
-
 }
 
 .rectangle-icon {
@@ -298,4 +296,21 @@
     font-size: 12px;
     font-weight: 400;
     color: #828282;
+}
+.media-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+}
+.rights-section{
+    background: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #E5E5E5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2%;
 }
