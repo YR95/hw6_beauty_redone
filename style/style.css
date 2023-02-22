@@ -231,7 +231,10 @@
     max-width: 150px;
     padding: 10px;
 }
-
+.media-icon{
+    max-width: 45px;
+    max-height: 43px;
+}
 .rectangle-button {
     background: #F13C6E;
     color: #FFFFFF;
