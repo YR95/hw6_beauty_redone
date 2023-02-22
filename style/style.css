@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: #333333;
+}
+
+.top-navigation {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+.top-navigation > li {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 2%;
+}
+
+.logo-icon {
+    min-width: 80px;
+    margin-right: 10px;
+}
+
+.beauty-logo-icon {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.beauty-logo {
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #F13C6E;
+}
+
+.beauty-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    background: white;
+    padding: 10px 45px;
+    border-radius: 40px;
+    border-color: #F13C6E;
+
+}
+
+.beauty-tel-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tel {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-line {
+    border-top: 1px #E5E5E5;
+    margin: 1%;
+}
+
+.medium-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medium-navigation > li {
+    padding: 1%;
+    color: #333333;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
