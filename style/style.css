@@ -21,7 +21,7 @@
 
 .logo-icon {
     min-width: 80px;
-    margin: 10px;
+    margin-right: 10px;
 }
 
 .beauty-logo-icon {
@@ -67,6 +67,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 20px 0;
 }
 
 .navigation-line {
@@ -91,14 +92,17 @@
 
 .image_background {
     background: #E5E5E5;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-image: url("../icon/pink_background.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     min-height: 525px;
+    padding-left:10%;
+
 }
 
 .image-background-header {
@@ -106,7 +110,6 @@
     font-size: 48px;
     font-weight: 700;
     color: #FFFFFF;
-    margin-left: 2%;
     margin-bottom: 2%;
 }
 
@@ -115,7 +118,6 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    margin-left: 2%;
     margin-bottom: 2%;
 }
 
@@ -128,7 +130,6 @@
     color: #FFFFFF;
     border-radius: 35px;
     padding: 10px 45px;
-    margin-left: 2%;
     border:  1px solid;
 }
 
